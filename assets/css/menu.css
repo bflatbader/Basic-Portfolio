@@ -6,9 +6,25 @@ ul {
     background-color: #fff;
   }
 
-  li {
-    float: right;
-  }
+li {
+  float: right;
+}
+
+.listitem {
+  position: relative;
+}
+
+.listitem:after {
+    content: '';
+    height: 20%;
+    width: 1px;
+
+    position: absolute;
+    right: 0;
+    top: 40px;
+
+    background-color: #ddd;
+}
   
   li a {
     display: block;
