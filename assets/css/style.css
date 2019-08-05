@@ -10,6 +10,10 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+hr {
+    border: .5px solid #ddd;
+}
+
 .top {
     background-color: #fff;
     width: 100%;
@@ -32,6 +36,20 @@ h1 {
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
+}
+
+#wrapper {
+    margin: auto;
+    width: 70%;
+}
+
+.middle {
+    background-color: #fff;
+    width: 960px;
+    margin-top: 20px;
+    padding: 20px;
+    display: block;
+	clear: both;
 }
 
 .bottom {
