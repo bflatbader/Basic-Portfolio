@@ -17,3 +17,7 @@
     z-index: 1;
     width: 200px;
 }
+
+a:hover {
+    filter: grayscale(100%);
+}
