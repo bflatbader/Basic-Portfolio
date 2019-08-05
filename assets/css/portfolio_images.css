@@ -18,6 +18,6 @@
     width: 200px;
 }
 
-a:hover {
+.gallery:hover {
     filter: grayscale(100%);
 }
