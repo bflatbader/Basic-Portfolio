@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #777777;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 15px;
+  }
